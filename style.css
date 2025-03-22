@@ -15,14 +15,29 @@ font-family: monospace;
 text-transform: uppercase;
 font-weight: bold;
 font-size: 100px;
+margin-top: 80px;
+
+}
+
+#info-text {
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-weight: bold;
+
 
 }
 
 #eraser {
     padding: 20px;
     border-radius: 50px;
-margin-left: 500px;
+    margin-top: 20px;
+margin-left: 560px;
 border-style: double;
+font-size: larger;
+font-weight: bolder;
+background-color: rgb(255, 226, 188);
 }
 
 #container {
@@ -32,7 +47,7 @@ display: grid;
 grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 width: 560px;
 height: 560px;
-border: 3px solid black; */
+border: 3px solid black; 
 margin-top: 40px;
 margin-left: 350px;
 

@@ -46,7 +46,7 @@ for (let i = 0; i < numDivs; i++){
  
       
     buttonOne.addEventListener('click', function() {
-        let newGridSize = prompt("how big u want it?");
+        let newGridSize = prompt("How detailed grid you want (grid starts with 16)? You can choose between 1-100!");
         if (newGridSize > 100) newGridSize = 100;
         let GridRestart = newGridSize * newGridSize;
         restart(GridRestart)
